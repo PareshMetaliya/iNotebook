@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Roboto:wght@300;400;500;700;900&display=swap");
+
+.Home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+}
+
+.Home2 {
+ 
+   position: absolute;
+  z-index: 40;
+  left: 10%;
+  right: 10%;
+  top:25rem;
+  top:25rem;
+  background-color: rgba(246, 246, 216,0.98);
+  width: 70%;
+  padding: 22px;
+  border-radius: 20px;
+  border: 2px solid black;
+  overflow: auto;
+}
+.close{
+  position: absolute;
+  top:-40px;
+  right:-15px;
+  /* background-color: black; */
+  /* color: white; */
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  position: absolute;
+}
+.editnav{
+  position: relative;
+}
+
+
+.updatenote{
+  width: 100%;
+  height: 100vh;
+  background-color: aliceblue;
+}
+.Notes {
+  display: flex;
+  padding: 2px;
+  margin: 2px;
+  overflow: auto;
+  
+}
+
+.Notescard {
+  display: flex;
+  padding: 2px;
+  margin: 2px;
+}
+
+.NoteForm {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+}
+.btn {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 5px;
+}
+button {
+  background-color: rgb(243, 242, 184);
+  color: black;
+  border-radius: 5px;
+  height: 50px;
+  width: 150px;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+  margin:4px;
+  margin-top: 10px;
+}
+button:hover {
+  transform: scale(1.02);
+}
+
+h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}

@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Roboto:wght@300;400;500;700;900&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  /* font-family: 'Roboto', sans-serif; */
+}
+
+.Note {
+  display: flex;
+  padding: 20px 60px;
+  margin: 5px;
+  flex-wrap: wrap;
+  }
+
+.NoteCard {
+  padding: 5px;
+  margin: 5px;
+  background-color: rgb(246, 246, 216);
+  width: 250px;
+  /* min-height: 250px; */
+  height: 280px;
+  border-radius: 2px;
+  border: black solid 1.3px;
+  overflow: auto;
+  border-radius: 12px;
+}
+
+.NoteCard::-webkit-scrollbar {
+  display: none;
+}
+
+.NoteCard:hover {
+  transform: scale(1.02);
+  background-color: rgb(250, 250, 225);
+}
+h1 {
+  text-align: center;
+}
+p {
+  padding: 10px;
+  font-size: 1 rem;
+  word-spacing: 2px;
+}
+
+.NoteHeading {
+  padding: 4px;
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid black;
+  background-color: rgb(243, 242, 184);
+}
+svg {
+  margin: 5px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+svg:hover {
+  transform: scale(1.2);
+}

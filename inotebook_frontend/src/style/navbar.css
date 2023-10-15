@@ -1,0 +1,41 @@
+.navbar {
+  background-color: black;
+  color: azure;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  /* position: sticky;
+  z-index: 10;*/
+} 
+.item ul  {
+  display: flex;
+  text-decoration: none;
+  align-items: center;
+  color: aliceblue;
+  justify-content: space-between;
+  gap: 50px;
+  width: 100%;
+}
+
+.item ul li a {
+  text-decoration: none;
+  
+  color: aliceblue;
+}
+
+a {
+    text-decoration: none;
+    
+   
+  }
+.logo{
+    width: 60px;
+    height: 40px;
+    background-color:rgb(243, 219, 223);
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    
+}

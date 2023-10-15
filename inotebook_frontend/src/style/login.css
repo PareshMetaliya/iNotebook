@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+form {
+  margin-left: 30px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: space-around;
+}
+
+.Login {
+  padding: 1.2rem;
+  margin: 1rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#password,
+#email,
+#user {
+  width: 60vh;
+}
+.loginbtn {
+  width: 50vh;
+}
+.H5 {
+  margin-left: 1.2rem;
+}
+
+
+@media screen and (max-width: 480px) {
+  form {
+    margin-left: 3vh;
+    padding: 1vh;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-around;
+  }
+  
+  .Login {
+    padding: 1.2rem;
+    margin: 1rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  #password,
+  #email,
+  #user {
+    width: 35vh;
+  }
+  .loginbtn {
+    width: 30vh;
+  }
+  .H5 {
+    margin-left: 1.2rem;
+  }
+}
